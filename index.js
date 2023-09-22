@@ -11,9 +11,7 @@ function tirarDados() {
 }
 
 function tomarDecision() {
-  debugger;
   const resultadoTexto = "El resultado de los dados fue";
-/*   let puntajes = [5, 10, 15]; */
   let inventario = [];
   while (true) {
     const decision = prompt("Elige una aventura: \nEn cada aventura elegida se tirarán 2 dados.   \n1. Explorar el bosque.\n2. Entrar en la cueva.\n3. Cruzar el río.\n4. Terminar la aventura.");
